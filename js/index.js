@@ -7,7 +7,7 @@ if (Number.isNaN(n)) {
     var m = 1;
     for (var i = 0; i < n; i++) {
         var t = k;
-        k = k + m;
+        k += m;
         m = t;
     }
     document.write("Значення числа Фібоначчі під номером " + n + " = " + k);
